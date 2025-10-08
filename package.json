@@ -1,0 +1,52 @@
+{
+  "name": "shekhar-portfolio",
+  "version": "1.0.0",
+  "description": "Modern fullstack portfolio website for Shekhar Singh - AI/ML Engineer and Python Developer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build complete'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "portfolio",
+    "fullstack",
+    "nodejs",
+    "express",
+    "ai",
+    "machine-learning",
+    "python",
+    "developer"
+  ],
+  "author": {
+    "name": "Shekhar Singh",
+    "email": "shekharxsingh57@gmail.com",
+    "url": "https://github.com/shekhar-codes"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shekhar-codes/portfolio"
+  },
+  "bugs": {
+    "url": "https://github.com/shekhar-codes/portfolio/issues"
+  },
+  "homepage": "https://github.com/shekhar-codes/portfolio#readme"
+}
